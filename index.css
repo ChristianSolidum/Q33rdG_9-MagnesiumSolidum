@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+      height: 100vh;
+    background-color: blue;
+      position: relative;
+  }
+
+  #header {
+    display: block;
+    box-sizing: border-box;
+    background-color: bisque;
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  
+  #calculator {
+      background-color: red;
+      width: 250px;
+      height: 350px;
+      padding: 20px;
+      border-radius: 15px;
+      border-style: solid;
+      border-color: black;
+      border-width: 10px;
+      position: absolute;
+      z-index: 1;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  .textview {
+      display: block;
+      box-sizing: border-box;
+      width: 23%;
+      margin: auto;
+      font-size: 25px;
+      padding: 5px;
+      text-align: right;
+      position: relative;
+      z-index: 4;
+  }
+
+  #keys {
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    gap: 0px;
+    box-sizing: border-box;
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    z-index: 2;
+
+  }
+
+  #otherkeys {
+    display: grid;
+    grid-template-columns: repeat(2, 0.25fr);
+    gap: 0px;
+    box-sizing: border-box;
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    z-index: 3;
+  }
