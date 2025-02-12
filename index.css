@@ -32,7 +32,7 @@ html {
       border-width: 10px;
       position: absolute;
       z-index: 1;
-      top: 60%;
+      top: 63%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
